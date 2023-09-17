@@ -1,0 +1,7 @@
+.container{
+    max-width: 1000px;
+    margin-top: 2%;
+}
+.container>h1{
+    text-transform: uppercase;
+}

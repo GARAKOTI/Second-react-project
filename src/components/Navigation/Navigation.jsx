@@ -3,7 +3,7 @@ const Navigation = () => {
 
   return (
     <div className="container">
-      <div className={`${styles.navbar}` }>
+      <div className={`${styles.navbar}`}>
         <img src="./Images/logo.png" alt="" />
         <ul>
           <li>Home</li>
