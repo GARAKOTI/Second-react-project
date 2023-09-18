@@ -1,8 +1,8 @@
-import styles from "./Header_section.module.css"
+import styles from "./Header_section.module.css";
 const Header = () => {
   return (
-    <div >
-      <div className= {` ${styles.container}` } >
+    <div>
+      <div className={styles.container}>
         <h1>Contact us</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex natus eius

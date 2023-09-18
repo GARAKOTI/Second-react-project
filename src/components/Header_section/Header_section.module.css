@@ -1,7 +1,11 @@
-.container{
-    max-width: 1000px;
-    margin-top: 2%;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
-.container>h1{
-    text-transform: uppercase;
+.container > h1 {
+  font-size: 50px;
+  font-weight: 800;
+  max-width: 80%;
+  text-transform: uppercase;
 }

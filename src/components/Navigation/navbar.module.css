@@ -1,15 +1,15 @@
-.navbar{
-    width: 100%;
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  
-  }
-  .navbar>ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    list-style: none;
-  }
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.navbar > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+}

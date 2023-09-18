@@ -1,19 +1,48 @@
 .container {
-  width: 100%;
+  max-width: 1000px;
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 0px;
+  align-items: end;
 }
 
-.top_btn{
+.top_btn {
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 30px;
-  margin-top: 20px;
 }
-.contact_form{
+.contact_form {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  background-color: blue;
+}
+.form_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.contact_form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form_container input {
+  height: 40px;
+  padding: 0 10px;
+}
+.form_container label {
+  font-size: 14px;
+  position: absolute;
+  top: -11px;
+  left: 10px;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.contact_image {
+  height: 30em;
+}
+.contact_image img {
+  height: inherit;
 }

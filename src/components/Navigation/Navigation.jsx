@@ -1,6 +1,5 @@
 import styles from "./navbar.module.css";
 const Navigation = () => {
-
   return (
     <div className="container">
       <div className={`${styles.navbar}`}>

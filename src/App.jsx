@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="container">
       <Navigation />
-      <Header/>
-      <Hero_Section/>
+      <main className="main_container">
+        <Header />
+        <Hero_Section />
+      </main>
     </div>
   );
 }
